@@ -3,23 +3,23 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "soyeon_coding"
+name:               "soyeon.devlog"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
+#  facebook:         your-id
+#  youtubeUser:      your-id
+#  youtubeChannel:   your-id
+#  twitter:          your-id
   github:           soyeongold
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
+#  stackoverflow:    your-id
+#  quora:            your-id
+  linkedin:         소연-김-b632a1203
+#  pinterest:        your-id
+#  googlePlus:       your-id
+#  instagram:        your-id
+#  reddit:           your-id
+#  medium:           your-id
+#  tumblr:           your-id
   email:            kimmms5@naver.com
 
 copyright:
