@@ -3,14 +3,8 @@ title: About
 permalink: /about/
 ---
 
-Kim so yeon.
+### 김소연 | Soyeon Kim
 
+웹 개발자
 
-## Features
-
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
 
