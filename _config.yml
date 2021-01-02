@@ -1,92 +1,61 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Basic
-name:               "soyeon.devlog"
+title: soyeongold
+email: soyeongold@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Soyeon Kim | Blog
+# baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://soyeongold.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-author:
-#  facebook:         your-id
-#  youtubeUser:      your-id
-#  youtubeChannel:   your-id
-#  twitter:          your-id
-  github:           soyeongold
-#  stackoverflow:    your-id
-#  quora:            your-id
-  linkedin:         소연-김-b632a1203
-#  pinterest:        your-id
-#  googlePlus:       your-id
-#  instagram:        your-id
-#  reddit:           your-id
-#  medium:           your-id
-#  tumblr:           your-id
-  email:            kimmms5@naver.com
+github_username: soyeongold
+highlighter: rouge
+svg:
+  optimize: true
 
-copyright:
-  year:             2020
-  name:             soyeongold
+# Build settings
 
-# Google-analytics
-google-analytics:
-  id:               ""
+# theme: minima
+highlighter-theme: monokai
+date_format: "%Y-%M-%D"
+plugins:
+  - jekyll-feed
+category_dir: category/
+tag_dir: tag/
 
-# Disqus
-disqus:
-  id:               "soyeongold-github-io"
-
-# URL
-url:                "https://soyeongold.github.io/" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
-
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
-
-# Pagination
-paginate:           5
-paginate_path:      /page:num/
-
-# Markdown
-markdown:           kramdown
-kramdown:
-  input:            GFM
-
-# Navigation
-nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Search"
-    url:            "/search"
-  - name:           "Github"
-    url:            "https://github.com/soyeongold"
-
-# Sass
-sass:
-  sass_dir:         _sass
-  style:            :compressed
-
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-admin
-
-exclude:            [vendor]
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
