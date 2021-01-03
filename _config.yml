@@ -40,9 +40,9 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 
-#disqus
+# Disqus
 disqus:
-id: "soyeongold-github-io"
+  id:               "soyeongold-github-io"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
