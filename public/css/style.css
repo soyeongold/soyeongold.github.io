@@ -1,8 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
 @import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
 @import url(syntax/monokai.css);
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
 
 :root {
@@ -53,7 +53,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "NanumBarunGothic", "Roboto", serif;
-	color: #2c3e50;
+	color: #2e2e2e;
 }
 
 a {
@@ -79,7 +79,11 @@ code {
 	font-family: "Menlo", "Consolas", monospace;
 	font-size: 0.8em;
 	margin: 0px;
-
+	padding: .25em .5em;
+    font-size: 85%;
+    color: #5e5e5e;
+    background-color: #f1f3f5;
+    border-radius: 3px;
 }
 
 .container {
@@ -213,8 +217,8 @@ article {
 	line-height: 1.9;
 }
 
-article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
+article.home div a, article.home pre a { color: #2e2e2e; }
+article.home div a:hover, article.home pre a:hover { color: #2e2e2e; text-decoration: none; }
 article img { max-width: 100%; }
 
 blockquote {
@@ -230,6 +234,22 @@ p {
   margin-bottom: 0;
 }
 
+dt {
+    float: left;
+    width: 180px;
+    overflow: auto;
+    clear: left;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-bottom: .8em;
+}
+
+dd {
+    margin-left: 200px;
+    margin-bottom: .8em;
+}
+
 article h1,
 article h2,
 article h3,
@@ -237,6 +257,7 @@ article h4,
 article h5,
 article h6 {
 	font-family: "Spoqa Han Sans", "NanumBarunGothic", "Roboto";
+	font-weight: 600;
 	color: #333;
   	margin-bottom: 0;
 }
@@ -303,6 +324,30 @@ footer {
 	color: #ccc;
 }
 
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+}
+
+table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e9ecef;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: .25rem .5rem;
+    border: 1px solid #e9ecef;
+}
 
 @media (max-width: 576px) {
 	article {
