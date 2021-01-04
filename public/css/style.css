@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
 @import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
 @import url(syntax/monokai.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
 
 :root {
@@ -31,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "NanumBarunGothic", "Nanum Gothic", "Roboto";
+  --font-family-sans-serif: "NanumBarunGothic", "Roboto";
   --font-family-serif: "Nanum Myeongjo";
 }
 
@@ -51,7 +52,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
+	font-family: "NanumBarunGothic", "Roboto", serif;
 	color: #2c3e50;
 }
 
@@ -78,6 +79,7 @@ code {
 	font-family: "Menlo", "Consolas", monospace;
 	font-size: 0.8em;
 	margin: 0px;
+
 }
 
 .container {
@@ -224,7 +226,6 @@ blockquote {
 }
 
 p {
-  font-family: "NanumBarunGothic", "Nanum Gothic", "Roboto";
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -235,7 +236,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "NanumBarunGothic", "Nanum Gothic", "Roboto";
+	font-family: "Spoqa Han Sans", "NanumBarunGothic", "Roboto";
 	color: #333;
   	margin-bottom: 0;
 }
@@ -254,6 +255,7 @@ article.home h4 a:hover {
 }
 
 header.post-header {
+    font-family: 'Gelasio', 'Nanum Myeongjo', serif;
 	padding: 50px 0px 10px 0px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid #ccc;
