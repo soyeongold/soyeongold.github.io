@@ -102,6 +102,7 @@ comments: true
 
 ### 일반적인 코드
 
+---
     <div id="awesome">
       <p>This is great isn't it?</p>
     </div>
