@@ -75,12 +75,17 @@ pre {
 	line-height: 1.2;
 }
 
+pre code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+}
+
 code {
 	font-family: "Menlo", "Consolas", monospace;
 	font-size: 0.8em;
 	margin: 0px;
 	padding: .25em .5em;
-    font-size: 85%;
     color: #5e5e5e;
     background-color: #f1f3f5;
     border-radius: 3px;
