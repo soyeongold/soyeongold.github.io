@@ -75,7 +75,7 @@ pre {
 	line-height: 1.2;
 }
 
-pre code {
+pre code { /* 블록 안에 있는 코드 */
     padding: 0;
     color: inherit;
     background-color: transparent;
@@ -226,7 +226,7 @@ article.home div a, article.home pre a { color: #2e2e2e; }
 article.home div a:hover, article.home pre a:hover { color: #2e2e2e; text-decoration: none; }
 article img { max-width: 100%; }
 
-blockquote {
+blockquote { /* 인용구 */
 	color: #828282;
   	border-left: 4px solid #ccc;
   	padding-left: 10px;
@@ -239,20 +239,42 @@ p {
   margin-bottom: 0;
 }
 
-dt {
-    float: left;
-    width: 180px;
-    overflow: auto;
-    clear: left;
-    text-align: right;
-    white-space: nowrap;
+dt { /* 정의 리스트 */
     font-weight: bold;
-    margin-bottom: .8em;
 }
 
-dd {
-    margin-left: 200px;
-    margin-bottom: .8em;
+h1 { /* 제목 스타일 지정 */
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    border-bottom: 1px solid #eee;
+}
+
+h2 {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1.75em;
+    line-height: 1.225em;
+    border-bottom: 1px solid #eee;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 1em;
+    color: #868e96;
 }
 
 article h1,
@@ -263,8 +285,7 @@ article h5,
 article h6 {
 	font-family: "Spoqa Han Sans", "NanumBarunGothic", "Roboto";
 	font-weight: 600;
-	color: #333;
-  	margin-bottom: 0;
+  	/* margin-bottom: 0; */
 }
 
 article.home h1 a,
