@@ -277,6 +277,12 @@ h6 {
     color: #868e96;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid #f1f3f5;
+    margin: 1.5rem auto;
+}
+
 article h1,
 article h2,
 article h3,

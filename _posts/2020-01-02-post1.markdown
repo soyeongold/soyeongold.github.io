@@ -105,6 +105,5 @@ comments: true
 ---
     <div id="awesome">
       <p>This is great isn't it?</p>
-    </div>
-
+    </div>  
 --- 
