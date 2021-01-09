@@ -43,7 +43,7 @@ int x = 1;  // 변수 x를 선언하고 1로 초기화
 ##2. 변수의 타입
 
 ### 값의 종류
-![data_type](./assets/images/data_type.JPG)
+![data_type](/assets/images/data_type.JPG)
 * 자료형 : 값의 종류에 따라 값이 저장될 공간의 크기와 저장형식을 정의한 것
 * 기본형과 참조형
   * 기본형 변수 : 실제값 저장 (논리형, 문자형, 정수형, 실수형)
