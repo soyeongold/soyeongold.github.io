@@ -367,6 +367,7 @@ let user = new function() {
   this.isAdmin = false;
   // 복잡한 객체를 만들기 위한 코드들이 여기에 들어간다.
 };
+```
 
 
 ### new.target
